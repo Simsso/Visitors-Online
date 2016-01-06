@@ -1,0 +1,20 @@
+{
+  "name": "visitors-online",
+  "version": "1.0.0",
+  "description": "A system to count the current number of visitors on my webistes.",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.4.0"
+  }, 
+  "repository" : { 
+  	"type" : "git",
+  	"url" : "https://github.com/Simsso/Visitors-Online.git"
+  },
+  "license": "UNLICENSED", 
+  "private": true,
+  "author": {
+  	"name": "Timo Denk",
+  	"email": "mail@timodenk.com",
+  	"url": "http://www.timodenk.com"
+	}
+}
