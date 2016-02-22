@@ -43,7 +43,7 @@ void loop() {
             // convert string to byte and show the number on the seven-segment display
             char bytebuf[32]; // make this at least big enough for the whole string
             visitorsOnlineString.toCharArray(bytebuf, sizeof(bytebuf));
-            byte b = displayByte((byte)atoi(bytebuf));
+            displayByte((byte)atoi(bytebuf));
             
             // stop after receiving the data
             client.stop();
